@@ -1,6 +1,8 @@
 import Banking.Transcation;
 public class main {
    public static void main(String[] args) {
+	   System.out.println("HEYYYYYYYYYYYY");
+	   
 		demo demo = new demo();
 		demo.a = 10;
 		demo.display();

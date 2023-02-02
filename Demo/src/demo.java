@@ -8,8 +8,8 @@ class simple
 	
     int display() 
         {
-		System.out.println("this is a msg from display method !! \n"+ "value of a is : " + a);
-		System.out.println("value of long is :" + b);
+		System.out.println("THIS MESSAGE FROM DISPLAY METHOD  !! \n"+ "value of a is : " + a);
+		System.out.println("VALUE OF LONG IS :" + b);
 		return 0;
 		}
 }
@@ -31,6 +31,8 @@ public class demo extends simple
 		simple d = new simple();
 		d.display();
 		s.display();
+		
+	
 	
 }
 }
